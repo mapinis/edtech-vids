@@ -1,0 +1,35 @@
+{
+  "name": "edtech-vids",
+  "version": "1.0.0",
+  "description": "Metalsmith site for tutorial vids",
+  "main": "index.js",
+  "dependencies": {
+    "metalsmith": "^2.3.0",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-layouts": "^1.8.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-pug": "^2.0.0",
+    "pug": "^2.0.0-rc.1",
+    "yarn": "^0.24.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"No test command\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapinis/edtech-vids.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "mka",
+    "edtech",
+    "tutorial"
+  ],
+  "author": "Mark Apinis, Luke Hunter, Aashik Bhalodia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapinis/edtech-vids/issues"
+  },
+  "homepage": "https://github.com/mapinis/edtech-vids#readme"
+}

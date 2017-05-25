@@ -1,0 +1,10 @@
+html
+    head
+        title= title
+        // Stylesheet goes here
+        link(rel="stylesheet" href="/styles.css" type="text/css")
+    body
+    - var titleString = type + " - " + title
+        h1=titleString
+
+        != contents
