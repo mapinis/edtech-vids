@@ -4,7 +4,11 @@ html
         // Stylesheet goes here
         link(rel="stylesheet" href="/styles.css" type="text/css")
     body
-    - var titleString = type + " - " + title
-        h1=titleString
+        div(class="main")
+            a(href="/") ⬅︎ Back
+        - var titleString = type + " - " + title
+            h1=titleString
 
-        != contents
+            != contents
+
+            p: a(href="/") ⬅︎ Back
